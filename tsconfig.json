@@ -14,13 +14,16 @@
     
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+
     
     "skipLibCheck": true,                           
     "forceConsistentCasingInFileNames": true ,
     "baseUrl": ".",
     "paths": {
       "@controllers/*":["./src/controllers/*"],
-      "@models/*":["./models/*"]
+      "@models/*":["./src/models/*"],
+      "@config/*":["./src/config/*"],
+      "@tmp/*":["./src/tmp/*"]
     }       
   }
 }
